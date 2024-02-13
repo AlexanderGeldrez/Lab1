@@ -80,6 +80,11 @@ public class SecondActivity extends AppCompatActivity {
                     }
                 });
         // Launch the camera activity
-        cameraResult.launch(cameraIntent);
+        binding.changePicture.setOnClickListener(cl->{
+            cameraResult.launch(cameraIntent);
+
+
+        });
+
     }
 }
