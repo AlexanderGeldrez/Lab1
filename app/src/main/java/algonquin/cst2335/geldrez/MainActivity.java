@@ -1,7 +1,6 @@
 package algonquin.cst2335.geldrez;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
